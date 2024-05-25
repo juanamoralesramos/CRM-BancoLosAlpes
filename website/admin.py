@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Cliente
 
-# Register your models here.
+#Para que le permita el admin añadir cliente
+admin.site.register(Cliente)
+
